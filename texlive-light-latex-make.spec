@@ -1,6 +1,6 @@
 Name:		texlive-light-latex-make
 Version:	60558
-Release:	1
+Release:	2
 Summary:	llmk: A build tool for LaTeX documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/light-latex-make
