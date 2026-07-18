@@ -1,5 +1,6 @@
 %global tl_name light-latex-make
 %global tl_revision 66473
+%global tl_bin_links llmk:%{_texmfdistdir}/scripts/light-latex-make/llmk.lua
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -15,6 +16,8 @@ BuildArch:	noarch
 BuildSystem:	texlive
 Requires:	texlive(light-latex-make.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 Light LaTeX Make (llmk) is yet another build tool specific for LaTeX
